@@ -154,10 +154,37 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <br /><h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p><br />About << <a href='About.html'>Previous</a> </div>
+    <div id="tipue_search_content">Weeks << <a href='Weeks.html'>Previous</a> <a href='solvespace - 快捷鍵.html'>Next</a> >> solvespace - 快捷鍵<br /><h1>Week 2-5</h1>
+<p>week2：建立個人網站</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/KQGeJmjNM3g" width="560"></iframe></p>
+<p>新增新的倉儲，命名為「cad2019」，並設公開<br/>下載 2019Fall可攜套件.7z (編譯 Solvespace 用)<br/>進入tmp 到 "home_mdecourse"，用Sc1開啟 .gitconfig<br/>利用submodule獲得子模組<br/>開設近端伺服器修改網頁內容<br/>將修改內容push上去</p>
+<p><br/>week3：編譯solvespace</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ofn2jmadyn8" width="560"></iframe></p>
+<p>先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe<br/>git version 查驗 git 版本<br/>git 2.13 版本以上, 可以使用下列 git clone --recurse-submodules 取得所有子模組資料<br/>git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace<br/>edit Y:\tmp\solvespace\extlib\angle\CMakeLists.txt comment out line 713 and 714<br/>#list(APPEND ANGLE_DEFINITIONS<br/>#"-DANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ \"d3dcompiler_47.dll\", \"d3dcompiler_46.dll\", \"d3dcompiler_43.dll\" }")<br/>endif()<br/>需要手動進行 libpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中:<br/>cd solvespace<br/>cd extlib<br/>cd libpng<br/>mkdir build<br/>cd build<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make<br/>rename libpng.dll.a to libpng_static.a and copy to Y:\msys64\mingw64\lib<br/>接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄, 執行:<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make<br/>week5：繪製 Solvespace Tutorial 11: Cubic Bezier Spline tool (Vase)</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/_Ywrsypq42o" width="560"></iframe></p>
+<p>開啟自己隨身的Solvespace程式。<br/>使用三點曲線繪製外型<br/>使用直線繪製底座即使圖形成為封閉面<br/>選擇一條線作為旋轉軸，使圖形繞著軸旋轉</p>
+<br/><br/><br/>Week 6-9
+<p><br/>Week6</p>
+<p>任務1：利用 Solvespace 繪製雙輪車所需的零組件, 將操作過程拍成帶有說明字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中. (影片標題為: 機械設計工程系-電腦輔助設計實習 W6 任務一參數化零組件繪製).</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/fZ22cCab28Q" width="560"></iframe></p>
+<p>任務2：利用 V-rep 3.6.1 rev4 與隨身程式執行系統, 完成網際 V-rep 模型控制任務後, 將操作過程拍成帶有說明字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中. (影片標題為: 機械設計工程系-電腦輔助設計實習 W6 任務一網際 V-rep 模型控制).</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/mXlK-yHbxUc" width="560"></iframe></p>
+<br/><br/><br/>Week 10-14
+<br/><br/><br/>Week 15-18
+<br/><br/><br/>Note
+<p><span>git submodule add</span><span> </span>https://github.com/mdecourse/cmsimde.git cmsimde 第一次把cmsimde載入倉儲使用<br/><span>python -m pip install flask_cors</span><span> </span>要更新下載flask_cors<br/><span>git clone --recurse-submodules</span><span> </span><span>https://github.com/solvespace/solvespace.git solvespace</span><br/>從遠端copy cmsimde必須，綠字部分改cmsimde的網址</p>
+<p>使用學校網路需用proxy</p>
+<p><span>[http]</span><br/><span>proxy = [2001:288:6004:17::7]:3128</span></p>
+<p><br/><br/>Video production</p>
+<p><br/>我們使用"Sharex" (圖一)進行網頁拍攝,並使用"aegisub"(圖二)或arctime(圖二-1)做字幕編輯,最後再由"avidemux"(圖三)進行影片檔跟字幕檔的合併.</p>
+<p><a href="https://getsharex.com/" target="_blank">Sharex</a><span>(圖一)</span><img alt="" height="215" src="https://s40723210.github.io/cad2019/images/header.jpg" width="460"/></p>
+<p><a href="http://www.aegisub.org/" target="_blank">aegisub</a><span>(圖二)</span></p>
+<p><img alt="" height="225" src="https://s40723210.github.io/cad2019/images/images.jpg" width="225"/></p>
+<p><a href="https://arctime.org/" target="_blank">arctime</a><span>(圖二-1)</span></p>
+<p><img alt="" height="225" src="https://s40723210.github.io/cad2019/images/images.png" width="225"/></p>
+<p><a href="http://www.avidemux.org/nightly/win64_support/" target="_blank">avidemux</a><span>(圖三)</span></p>
+<p><img alt="" height="239" src="https://s40723242.github.io/cad2019/images/avidemux_story.jpg" width="449"/></p>
+<br />Weeks << <a href='Weeks.html'>Previous</a> <a href='solvespace - 快捷鍵.html'>Next</a> >> solvespace - 快捷鍵</div>
         
     <!-- footer -->
       <div class="container">
