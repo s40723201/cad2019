@@ -26,10 +26,14 @@
 <li><span>rename libpng.dll.a to libpng_static.a and copy to Y:\msys64\mingw64\lib</span><br/><span></span></li>
 <li><span>接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄, 執行:</span><br/><span>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span><br/><span>mingw32-make</span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ofn2jmadyn8" width="560"></iframe></li>
 </ul>
-<p>先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe<br/>git version 查驗 git 版本<br/>git 2.13 版本以上, 可以使用下列 git clone --recurse-submodules 取得所有子模組資料<br/>git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace<br/>edit Y:\tmp\solvespace\extlib\angle\CMakeLists.txt comment out line 713 and 714<br/>#list(APPEND ANGLE_DEFINITIONS<br/>#"-DANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ \"d3dcompiler_47.dll\", \"d3dcompiler_46.dll\", \"d3dcompiler_43.dll\" }")<br/>endif()<br/>需要手動進行 libpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中:<br/>cd solvespace<br/>cd extlib<br/>cd libpng<br/>mkdir build<br/>cd build<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make<br/>rename libpng.dll.a to libpng_static.a and copy to Y:\msys64\mingw64\lib<br/>接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄, 執行:<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make</p>
 <p><br/><strong>week5：繪製 Solvespace Tutorial 11: Cubic Bezier Spline tool (Vase)</strong></p>
+<ul>
+<li>開啟自己隨身的Solvespace程式。</li>
+<li>使用三點曲線繪製外型</li>
+<li>使用直線繪製底座即使圖形成為封閉面</li>
+<li>選擇一條線作為旋轉軸，使圖形繞著軸旋轉</li>
+</ul>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/_Ywrsypq42o" width="560"></iframe></p>
-<p>開啟自己隨身的Solvespace程式。<br/>使用三點曲線繪製外型<br/>使用直線繪製底座即使圖形成為封閉面<br/>選擇一條線作為旋轉軸，使圖形繞著軸旋轉</p>
 <h2>Week 6-9</h2>
 <p><strong>Week6</strong></p>
 <p><strong>任務1：</strong></p>
@@ -102,7 +106,8 @@
 <li>在githun ssh設定中新增鑰使</li>
 </ul>
 <p><span><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/OQFzpXoj8f4" width="560"></iframe></strong></span></p>
-<h2>Week 10-14</h2>
+<p><span>Week9：期中影片</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/d4LuR_vzE1E" width="560"></iframe></span></p><h2>Week 10-14</h2>
 <p></p>
 <h2>Week 15-18</h2>
 <h1>Note</h1>
