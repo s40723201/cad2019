@@ -22,7 +22,30 @@
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20191108135710.1"><vh>W2</vh>
-<v t="leo.20191108135710.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20191108135710.2"><vh>W2投影片內容</vh></v>
+</v>
+<v t="leo.20191108140443.1"><vh>W3</vh>
+<v t="leo.20191108140443.2"><vh>W3投影片內容</vh></v>
+</v>
+<v t="leo.20191108140449.1"><vh>W5</vh>
+<v t="leo.20191108140449.2"><vh>W5投影片內容</vh></v>
+</v>
+<v t="leo.20191108140457.1"><vh>W6</vh>
+<v t="leo.20191108140921.1"><vh>W6-1</vh></v>
+<v t="leo.20191108140912.1"><vh>W6-2</vh></v>
+<v t="leo.20191108140457.2"><vh>W6-3</vh></v>
+</v>
+<v t="leo.20191108140503.1"><vh>W7</vh>
+<v t="leo.20191108141121.1"><vh>W7投影片內容</vh></v>
+<v t="leo.20191108141119.1"><vh>W7投影片內容</vh></v>
+</v>
+<v t="leo.20191108140511.1"><vh>W8</vh>
+<v t="leo.20191108141219.1"><vh>W8投影片內容</vh></v>
+<v t="leo.20191108141217.1"><vh>W8投影片內容</vh></v>
+<v t="leo.20191108140511.2"><vh>W8投影片內容</vh></v>
+</v>
+<v t="leo.20191108140519.1"><vh>W9</vh>
+<v t="leo.20191108140519.2"><vh>W9投影片內容</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -338,8 +361,103 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191108135710.2">##Week 2 ：建立個人網站
+<t tx="leo.20191108135710.2">## Week 2 ：建立個人網站
 
-&lt;iframe width="556" height="310" src="https://www.youtube.com/embed/KQGeJmjNM3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/KQGeJmjNM3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108140443.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191108140443.2">## Week 3 ：編譯solvespace
+
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/ofn2jmadyn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108140449.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191108140449.2">## Week5：繪製 Solvespace Tutorial 11: Cubic Bezier Spline tool
+
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/_Ywrsypq42o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108140457.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191108140457.2">## Week6：任務3
+
+
+### 從 #14 已知可透過 Python 程式啟動或停止 V-rep 模擬, 請在事項 2 的架構下, 新增兩個按鈕, 可以啟動或停止所連線的 V-rep 模擬. 完成後將操作流程拍成帶字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/qmcW4QfVddE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108140503.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191108140511.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191108140511.2">## Week 8 ：以ssh對Github 連線
+
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/OQFzpXoj8f4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108140519.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191108140519.2">## Week 9 ：期中簡報
+
+&lt;iframe width="854" height="480" src="https://youtu.be/d4LuR_vzE1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108140912.1">## Week6：任務2
+
+
+### 利用 V-rep 3.6.1 rev4 與隨身程式執行系統, 完成網際 V-rep 模型控制任務後, 將操作過程拍成帶有說明字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/mXlK-yHbxUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108140921.1">## Week6：任務1
+
+
+### 利用 Solvespace 繪製雙輪車所需的零組件, 將操作過程拍成帶有說明字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/fZ22cCab28Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108141119.1">## Week 7 ：任務2
+
+### Solvespace 參數繪圖驗證
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/xG0-_1gMaZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108141121.1">## Week 7 ：任務1
+
+### Solvespace 編譯加入學號
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/btlRJgwwhuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108141217.1">## Week 8 ：導入 Webots
+
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/Uv9PDqvoSS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108141219.1">## Week 8 ：啟用 CMSiMDE中的網誌系統
+
+&lt;iframe width="854" height="840" src="https://www.youtube.com/embed/tMdIU8Y2vJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
