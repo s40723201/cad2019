@@ -382,32 +382,24 @@ vertical: body pane on the botton</t>
 <t tx="leo.20191108140449.2">## Week5：繪製 Solvespace Tutorial 11: Cubic Bezier Spline tool
 
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/_Ywrsypq42o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20191108140457.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
+<t tx="leo.20191108140457.1">&lt;section&gt;
 @others
-    &lt;/script&gt;
 &lt;/section&gt;
+
+
+</t>
+<t tx="leo.20191108140503.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
 
 
 						
 </t>
-<t tx="leo.20191108140503.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
+<t tx="leo.20191108140511.1">&lt;section&gt;
 @others
-    &lt;/script&gt;
 &lt;/section&gt;
 
-
-						
-</t>
-<t tx="leo.20191108140511.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
 </t>
 <t tx="leo.20191108140519.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -423,15 +415,9 @@ vertical: body pane on the botton</t>
 &lt;iframe width="854" height="480" src="https://youtu.be/d4LuR_vzE1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108150409.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
+&lt;/section&gt;</t>
 <t tx="leo.20191108150409.2">## Week 7 ：任務2
 
 ### Solvespace 參數繪圖驗證
@@ -439,13 +425,9 @@ vertical: body pane on the botton</t>
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/xG0-_1gMaZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108150411.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
-
 						
 </t>
 <t tx="leo.20191108150411.2">## Week 7 ：任務1
@@ -455,12 +437,9 @@ vertical: body pane on the botton</t>
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/btlRJgwwhuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108150533.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
 
 						
 </t>
@@ -469,12 +448,9 @@ vertical: body pane on the botton</t>
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/qmcW4QfVddE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108150535.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
 
 						
 </t>
@@ -483,12 +459,9 @@ vertical: body pane on the botton</t>
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/mXlK-yHbxUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108150538.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
 
 						
 </t>
@@ -497,40 +470,26 @@ vertical: body pane on the botton</t>
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/fZ22cCab28Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108150704.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
+&lt;/section&gt;</t>
 <t tx="leo.20191108150704.2">## Week 8 ：以ssh對Github 連線
 
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/OQFzpXoj8f4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108150705.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
+&lt;/section&gt;	
 </t>
 <t tx="leo.20191108150705.2">## Week 8 ：導入 Webots
 
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/Uv9PDqvoSS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108150707.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
 
 						
 </t>
