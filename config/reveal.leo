@@ -54,9 +54,13 @@ Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
 [網誌](https://s40723201.github.io/cad2019/blog/)
+
 [倉儲]( https://github.com/s40723201/cad2019)
+
 [內容管理]( https://s40723201.github.io/cad2019/content/index.html)
+
 [投影片]( https://s40723201.github.io/cad2019/reveal/index.html#/)
+
 
 
 </t>
