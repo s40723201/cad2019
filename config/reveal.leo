@@ -21,6 +21,9 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20191108135710.1"><vh>W2</vh>
+<v t="leo.20191108135710.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -47,22 +50,18 @@
 <t tx="leo.20180902120523.1"></t>
 <t tx="leo.20180902120523.10">## 40723201 cad2019
 
-### KMOLab
+### 機械設計工程系 電腦輔助設計與實習
+
+
+．[網誌](https://s40723201.github.io/cad2019/blog/)
+
+．[倉儲]( https://github.com/s40723201/cad2019)
+
+．[內容管理]( https://s40723201.github.io/cad2019/content/index.html)
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40723201](https://www.youtube.com/channel/UCIU4i9CyBAqXo4XxK0p6Q4A/videos?view=0&amp;sort=dd&amp;shelf_id=1)
 &lt;/small&gt;
-
-[網誌](https://s40723201.github.io/cad2019/blog/)
-
-[倉儲]( https://github.com/s40723201/cad2019)
-
-[內容管理]( https://s40723201.github.io/cad2019/content/index.html)
-
-[投影片]( https://s40723201.github.io/cad2019/reveal/index.html#/)
-
-
-
 </t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -330,5 +329,17 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20191108135710.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191108135710.2"># Week 2 ：建立個人網站
+
+&lt;iframe width="556" height="310" src="https://www.youtube.com/embed/KQGeJmjNM3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
