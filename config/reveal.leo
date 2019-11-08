@@ -379,7 +379,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191108140449.2">## Week5：繪製 Solvespace Tutorial 11: Cubic Bezier Spline tool
+<t tx="leo.20191108140449.2">## Week5：繪製 Solvespace 
 
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/_Ywrsypq42o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108140457.1">&lt;section&gt;
@@ -412,7 +412,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191108140519.2">## Week 9 ：期中簡報
 
-&lt;iframe width="854" height="480" src="https://youtu.be/d4LuR_vzE1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/d4LuR_vzE1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108150409.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
