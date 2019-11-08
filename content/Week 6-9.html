@@ -195,7 +195,36 @@ img.add_border {
 <li>按stop,開啟<span>start_mdecourse -webot.bat</span></li>
 </ul>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Uv9PDqvoSS4" width="560"></iframe></span></p>
-<p><span><strong>以ssh對Github 連線</strong></span></p><br />Week 2-5 << <a href='Week 2-5.html'>Previous</a> <a href='Week 10-14.html'>Next</a> >> Week 10-14</div>
+<p><span><strong>以ssh對Github 連線</strong></span></p>
+<ul>
+<li>將portablegit\bin中的sh_for_solvespace_compile複製並更名為sh.exe</li>
+<li>進入cmd輸入<span>ssh-keygen -t rsa -b 4096 -C "使用者學號"</span></li>
+<li>下載putty並透過putty.chm新增兩枚鑰使</li>
+<li>修改<span>start.bat:</span></li>
+</ul>
+<p>　　　　set GIT_HOME=%Disk%:\portablegit\bin\</p>
+<p>　　　　set GIT_SSH=%Disk%:\putty\plink.exe</p>
+<ul>
+<li>修改自身<span>倉儲 .git 中的 config 檔案中的 url 設定</span></li>
+</ul>
+<pre><span><code>　　　　url = <a href="mailto:git@github.com:mdecourse/cad2019.git">git@github.com:mdecourse/cad2019.git</a><br/></code></span></pre>
+<ul>
+<li>設定putty</li>
+<li>在Y:\home_mdecourse\.ssh中新增config並加入指令</li>
+</ul>
+<pre><span><code>　　　　ProxyCommand y:/putty/plink.exe github.com %h %p
+ 
+　　　　Host github.com
+    　　　　User git
+   　　　　 Port 22
+   　　　　 Hostname github.com
+ 
+   　　　　 TCPKeepAlive yes
+   　　　　 IdentitiesOnly yes</code></span></pre>
+<ul>
+<li>在githun ssh設定中新增鑰使</li>
+</ul>
+<p><span><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/OQFzpXoj8f4" width="560"></iframe></strong></span></p><br />Week 2-5 << <a href='Week 2-5.html'>Previous</a> <a href='Week 10-14.html'>Next</a> >> Week 10-14</div>
         
     <!-- footer -->
       <div class="container">
