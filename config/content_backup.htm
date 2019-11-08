@@ -1,23 +1,48 @@
 <h1>Weeks</h1>
+<p><a href="https://s40723201.github.io/cad2019/content/Week%202-5.html">Week 2-5</a></p>
+<p><a href="https://s40723201.github.io/cad2019/content/Week%206-9.html">Week 6-9</a></p>
+<p><a href="https://s40723201.github.io/cad2019/content/Week%2010-14.html">Week 10-14</a></p>
+<p><a href="https://s40723201.github.io/cad2019/content/Week%2015-19.html">Week 15-19</a></p>
+<p></p>
+<p></p>
 <h2>Week 2-5</h2>
-<p>week2：建立個人網站</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/KQGeJmjNM3g" width="560"></iframe></p>
-<p>新增新的倉儲，命名為「cad2019」，並設公開<br/>下載 2019Fall可攜套件.7z (編譯 Solvespace 用)<br/>進入tmp 到 "home_mdecourse"，用Sc1開啟 .gitconfig<br/>利用submodule獲得子模組<br/>開設近端伺服器修改網頁內容<br/>將修改內容push上去</p>
-<p><br/>week3：編譯solvespace</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ofn2jmadyn8" width="560"></iframe></p>
-<p>先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe<br/>git version 查驗 git 版本<br/>git 2.13 版本以上, 可以使用下列 git clone --recurse-submodules 取得所有子模組資料<br/>git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace<br/>edit Y:\tmp\solvespace\extlib\angle\CMakeLists.txt comment out line 713 and 714<br/>#list(APPEND ANGLE_DEFINITIONS<br/>#"-DANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ \"d3dcompiler_47.dll\", \"d3dcompiler_46.dll\", \"d3dcompiler_43.dll\" }")<br/>endif()<br/>需要手動進行 libpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中:<br/>cd solvespace<br/>cd extlib<br/>cd libpng<br/>mkdir build<br/>cd build<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make<br/>rename libpng.dll.a to libpng_static.a and copy to Y:\msys64\mingw64\lib<br/>接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄, 執行:<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make<br/>week5：繪製 Solvespace Tutorial 11: Cubic Bezier Spline tool (Vase)</p>
+<p><strong>week2：建立個人網站</strong></p>
+<ul>
+<li>新增新的倉儲，命名為「cad2019」，並設公開</li>
+<li>下載 2019Fall可攜套件.7z (編譯 Solvespace 用)</li>
+<li>進入tmp 到 "home_mdecourse"，用Sc1開啟 .gitconfig</li>
+<li>利用submodule獲得子模組</li>
+<li>開設近端伺服器修改網頁內容</li>
+<li>將修改內容push上去</li>
+</ul>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/KQGeJmjNM3g" width="560"></iframe><br/><strong>week3：編譯solvespace</strong></p>
+<ul>
+<li><span>先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</span></li>
+<li><span>git version 查驗 git 版本</span><br/><span></span><span></span></li>
+<li><span>git 2.13 版本以上, 可以使用下列 git clone --recurse-submodules 取得所有子模組資料</span><br/><span></span></li>
+<li><span>git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace</span><br/><span></span></li>
+<li><span>edit Y:\tmp\solvespace\extlib\angle\CMakeLists.txt comment out line 713 and 714</span><br/><span>#list(APPEND ANGLE_DEFINITIONS</span><br/><span>#"-DANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ \"d3dcompiler_47.dll\", \"d3dcompiler_46.dll\", \"d3dcompiler_43.dll\" }")</span><br/><span>endif()</span><br/><span></span></li>
+<li><span>需要手動進行 libpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中:</span><br/><span>cd solvespace</span><br/><span>cd extlib</span><br/><span>cd libpng</span><br/><span>mkdir build</span><br/><span>cd build</span><br/><span></span><span>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span><br/><span></span><span>mingw32-make</span><br/><span></span></li>
+<li><span>rename libpng.dll.a to libpng_static.a and copy to Y:\msys64\mingw64\lib</span><br/><span></span></li>
+<li><span>接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄, 執行:</span><br/><span>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span><br/><span>mingw32-make</span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ofn2jmadyn8" width="560"></iframe></li>
+</ul>
+<p>先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe<br/>git version 查驗 git 版本<br/>git 2.13 版本以上, 可以使用下列 git clone --recurse-submodules 取得所有子模組資料<br/>git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace<br/>edit Y:\tmp\solvespace\extlib\angle\CMakeLists.txt comment out line 713 and 714<br/>#list(APPEND ANGLE_DEFINITIONS<br/>#"-DANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ \"d3dcompiler_47.dll\", \"d3dcompiler_46.dll\", \"d3dcompiler_43.dll\" }")<br/>endif()<br/>需要手動進行 libpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中:<br/>cd solvespace<br/>cd extlib<br/>cd libpng<br/>mkdir build<br/>cd build<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make<br/>rename libpng.dll.a to libpng_static.a and copy to Y:\msys64\mingw64\lib<br/>接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄, 執行:<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make</p>
+<p><br/><strong>week5：繪製 Solvespace Tutorial 11: Cubic Bezier Spline tool (Vase)</strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/_Ywrsypq42o" width="560"></iframe></p>
 <p>開啟自己隨身的Solvespace程式。<br/>使用三點曲線繪製外型<br/>使用直線繪製底座即使圖形成為封閉面<br/>選擇一條線作為旋轉軸，使圖形繞著軸旋轉</p>
 <h2>Week 6-9</h2>
-<p>Week6</p>
-<p>任務1：利用 Solvespace 繪製雙輪車所需的零組件, 將操作過程拍成帶有說明字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中. (影片標題為: 機械設計工程系-電腦輔助設計實習 W6 任務一參數化零組件繪製).</p>
+<p><strong>Week6</strong></p>
+<p><strong>任務1：</strong></p>
+<p>　　利用 Solvespace 繪製雙輪車所需的零組件, 將操作過程拍成帶有說明字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/fZ22cCab28Q" width="560"></iframe></p>
-<p>任務2：利用 V-rep 3.6.1 rev4 與隨身程式執行系統, 完成網際 V-rep 模型控制任務後, 將操作過程拍成帶有說明字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中. (影片標題為: 機械設計工程系-電腦輔助設計實習 W6 任務一網際 V-rep 模型控制).</p>
+<p><strong>任務2：</strong></p>
+<p>　　利用 V-rep 3.6.1 rev4 與隨身程式執行系統, 完成網際 V-rep 模型控制任務後, 將操作過程拍成帶有說明字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中</p>
 <p><br/><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/mXlK-yHbxUc" width="560"></iframe><br/><br/></p>
-<p><span>任務3：從 </span><a aria-label="#14, V-rep Simulation" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-hovercard-type="issue" data-hovercard-url="/mdecourse/cad2019/issues/14/hovercard" data-id="508788931" data-permission-text="Issue title is private" href="https://github.com/mdecourse/cad2019/issues/14">#14</a><span><span> </span>已知可透過 Python 程式啟動或停止 V-rep 模擬, 請在事項 2 的架構下, 新增兩個按鈕, 可以啟動或停止所連線的 V-rep 模擬. 完成後將操作流程拍成帶字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中. (影片標題為: 機械設計工程系-電腦輔助設計實習 W6 任務一新增啟動與停止按鈕)</span></p>
+<p><span><strong>任務3：</strong></span></p>
+<p><span>　　從 </span><a aria-label="#14, V-rep Simulation" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-hovercard-type="issue" data-hovercard-url="/mdecourse/cad2019/issues/14/hovercard" data-id="508788931" data-permission-text="Issue title is private" href="https://github.com/mdecourse/cad2019/issues/14">#14</a><span><span> </span>已知可透過 Python 程式啟動或停止 V-rep 模擬, 請在事項 2 的架構下, 新增兩個按鈕, 可以啟動或停止所連線的 V-rep 模擬. 完成後將操作流程拍成帶字幕的影片後上傳至 Youtube 後, 嵌入個人網頁 W6 頁面中</span></p>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/qmcW4QfVddE" width="560"></iframe></span></p>
-<p>Week7</p>
-<p><span class="js-issue-title">任務1：Solvespace 編譯加入學號</span></p>
+<p><strong>Week7</strong></p>
+<p><strong><span class="js-issue-title">任務1：Solvespace 編譯加入學號</span></strong></p>
 <ul>
 <li><span> </span>到tmp &gt; solvespace &gt; build &gt;src &gt;CMakeFiles &gt; solvespace.dir刪掉           slovespace.cpp.obj檔</li>
 <li>到<span> solvespace &gt;src找到  slovespace.cpp 拉進編輯器</span></li>
@@ -27,9 +52,9 @@
 <li>完成後到 solvespace &gt; build &gt;bin 開啟 slovespace.exe ，進help 點 about 確認驗證完成</li>
 </ul>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/btlRJgwwhuk" width="560"></iframe></p>
-<p>任務2：<span>Solvespace 參數繪圖驗證</span></p>
+<p><strong>任務2：Solvespace 參數繪圖驗證</strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/xG0-_1gMaZI" width="560"></iframe></p>
-<p>Week8</p>
+<p><strong>Week8</strong></p>
 <p><strong>啟用 CMSiMDE中的網誌系統</strong></p>
 <ul>
 <li>開啟Leo，並用Leo開啟config 內的 pelican.Leo</li>
@@ -38,8 +63,6 @@
 <li>右鍵 local_blog 點選 goto  script ，將指令複製到 cmd </li>
 <li>去靜端檢查</li>
 </ul>
-<p></p>
-<p></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/tMdIU8Y2vJg" width="560"></iframe></p>
 <p><strong>導入 Webots</strong></p>
 <ul>
@@ -78,7 +101,8 @@
 <ul>
 <li>在githun ssh設定中新增鑰使</li>
 </ul>
-<p><span><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/OQFzpXoj8f4" width="560"></iframe></strong></span></p><h2>Week 10-14</h2>
+<p><span><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/OQFzpXoj8f4" width="560"></iframe></strong></span></p>
+<h2>Week 10-14</h2>
 <p></p>
 <h2>Week 15-18</h2>
 <h1>Note</h1>
@@ -94,7 +118,8 @@
 <p><a href="https://arctime.org/" target="_blank">arctime</a><span>(圖二-1)</span></p>
 <p><img alt="" height="225" src="https://s40723210.github.io/cad2019/images/images.png" width="225"/></p>
 <p><a href="http://www.avidemux.org/nightly/win64_support/" target="_blank">avidemux</a><span>(圖三)</span></p>
-<p><img alt="" height="239" src="https://s40723242.github.io/cad2019/images/avidemux_story.jpg" width="449"/></p><h2>solvespace - 快捷鍵</h2>
+<p><img alt="" height="239" src="https://s40723242.github.io/cad2019/images/avidemux_story.jpg" width="449"/></p>
+<h2>solvespace - 快捷鍵</h2>
 <p><br/>Sketch:</p>
 <p><img alt="" height="753" src="https://s40723242.github.io/cad2019/images/s1.png" width="423"/></p>
 <p>Constrain:</p>

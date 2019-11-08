@@ -155,14 +155,34 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">Weeks << <a href='Weeks.html'>Previous</a> <a href='Week 6-9.html'>Next</a> >> Week 6-9<br /><h1>Week 2-5</h1>
-<p>week2：建立個人網站</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/KQGeJmjNM3g" width="560"></iframe></p>
-<p>新增新的倉儲，命名為「cad2019」，並設公開<br/>下載 2019Fall可攜套件.7z (編譯 Solvespace 用)<br/>進入tmp 到 "home_mdecourse"，用Sc1開啟 .gitconfig<br/>利用submodule獲得子模組<br/>開設近端伺服器修改網頁內容<br/>將修改內容push上去</p>
-<p><br/>week3：編譯solvespace</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ofn2jmadyn8" width="560"></iframe></p>
-<p>先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe<br/>git version 查驗 git 版本<br/>git 2.13 版本以上, 可以使用下列 git clone --recurse-submodules 取得所有子模組資料<br/>git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace<br/>edit Y:\tmp\solvespace\extlib\angle\CMakeLists.txt comment out line 713 and 714<br/>#list(APPEND ANGLE_DEFINITIONS<br/>#"-DANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ \"d3dcompiler_47.dll\", \"d3dcompiler_46.dll\", \"d3dcompiler_43.dll\" }")<br/>endif()<br/>需要手動進行 libpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中:<br/>cd solvespace<br/>cd extlib<br/>cd libpng<br/>mkdir build<br/>cd build<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make<br/>rename libpng.dll.a to libpng_static.a and copy to Y:\msys64\mingw64\lib<br/>接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄, 執行:<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>mingw32-make<br/>week5：繪製 Solvespace Tutorial 11: Cubic Bezier Spline tool (Vase)</p>
+<p><strong>week2：建立個人網站</strong></p>
+<ul>
+<li>新增新的倉儲，命名為「cad2019」，並設公開</li>
+<li>下載 2019Fall可攜套件.7z (編譯 Solvespace 用)</li>
+<li>進入tmp 到 "home_mdecourse"，用Sc1開啟 .gitconfig</li>
+<li>利用submodule獲得子模組</li>
+<li>開設近端伺服器修改網頁內容</li>
+<li>將修改內容push上去</li>
+</ul>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/KQGeJmjNM3g" width="560"></iframe><br/><strong>week3：編譯solvespace</strong></p>
+<ul>
+<li><span>先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</span></li>
+<li><span>git version 查驗 git 版本</span><br/><span></span><span></span></li>
+<li><span>git 2.13 版本以上, 可以使用下列 git clone --recurse-submodules 取得所有子模組資料</span><br/><span></span></li>
+<li><span>git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace</span><br/><span></span></li>
+<li><span>edit Y:\tmp\solvespace\extlib\angle\CMakeLists.txt comment out line 713 and 714</span><br/><span>#list(APPEND ANGLE_DEFINITIONS</span><br/><span>#"-DANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ \"d3dcompiler_47.dll\", \"d3dcompiler_46.dll\", \"d3dcompiler_43.dll\" }")</span><br/><span>endif()</span><br/><span></span></li>
+<li><span>需要手動進行 libpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中:</span><br/><span>cd solvespace</span><br/><span>cd extlib</span><br/><span>cd libpng</span><br/><span>mkdir build</span><br/><span>cd build</span><br/><span></span><span>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span><br/><span></span><span>mingw32-make</span><br/><span></span></li>
+<li><span>rename libpng.dll.a to libpng_static.a and copy to Y:\msys64\mingw64\lib</span><br/><span></span></li>
+<li><span>接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄, 執行:</span><br/><span>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span><br/><span>mingw32-make</span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ofn2jmadyn8" width="560"></iframe></li>
+</ul>
+<p><br/><strong>week5：繪製 Solvespace Tutorial 11: Cubic Bezier Spline tool (Vase)</strong></p>
+<ul>
+<li>開啟自己隨身的Solvespace程式。</li>
+<li>使用三點曲線繪製外型</li>
+<li>使用直線繪製底座即使圖形成為封閉面</li>
+<li>選擇一條線作為旋轉軸，使圖形繞著軸旋轉</li>
+</ul>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/_Ywrsypq42o" width="560"></iframe></p>
-<p>開啟自己隨身的Solvespace程式。<br/>使用三點曲線繪製外型<br/>使用直線繪製底座即使圖形成為封閉面<br/>選擇一條線作為旋轉軸，使圖形繞著軸旋轉</p>
 <br />Weeks << <a href='Weeks.html'>Previous</a> <a href='Week 6-9.html'>Next</a> >> Week 6-9</div>
         
     <!-- footer -->
