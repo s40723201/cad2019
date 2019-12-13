@@ -1,0 +1,419 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>s40723201 cad2019</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">s40723201 cad2019</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li class='has-children'><a href='Weeks.html'>Weeks</a><ul class='dropdown'><li><a href='Week 2-5.html'>Week 2-5</a><li><a href='Week 6-9.html'>Week 6-9</a><li><a href='Week 10-14.html'>Week 10-14</a><li><a href='Week 15-18.html'>Week 15-18</a></li></ul><li class='has-children'><a href='Note.html'>Note</a><ul class='dropdown'><li><a href='video production.html'>video production</a><li><a href='solvespace - 快捷鍵.html'>solvespace - 快捷鍵</a><li><a href='git基本指令.html'>git基本指令</a><li><a href='Creo Parametric.html'>Creo Parametric</a><li><a href='SDRC.html'>SDRC</a><li><a href='SolidWorks.html'>SolidWorks</a><li><a href='NX.html'>NX</a></li></ul><li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li class='has-children'><a href='NX 12 for Engineering Design.html'>NX 12 for Engineering Design</a><ul class='dropdown'><li><a href='翻譯.html'>翻譯</a><li><a href='分組上傳.html'>分組上傳</a></li></ul><li class='has-children'><a href='cadhistory.html'>cadhistory</a><ul class='dropdown'><li><a href='Chapter 1.html'>Chapter 1</a></li></li></ul></ul><li><a href='Develop.html'>Develop</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">SDRC << <a href='SDRC.html'>Previous</a> <a href='NX.html'>Next</a> >> NX<br /><h1>SolidWorks</h1>
+<p><strong>1993年</strong></p>
+<p>創始人<span>Jon Hirschtick</span>招募了一個工程師團隊，旨在使<span>3D CAD</span>軟體更容易上手。<span>Hirschtick</span>從廣受好評的麻省理工學院二十一點隊的成員中籌得<span>100</span>萬美元，開始了他的新事業。該團隊的目標是構建一個基於<span>Windows</span>平台的易於使用且價格合理的軟體。這在當時真的是革命性的存在，當時所有其他流行的<span>CAD</span>系統都是在<span>Unix</span>上構建的。經過幾年的開發，最初發布的<span>SolidWorks</span>終於來了</p>
+<p><strong>1995年</strong></p>
+<ul>
+<li>與其他<span>CAD</span>系統的<span>18,000</span>美元相比，<span>SolidWorks</span>的售價僅為<span>4,000</span>美元。</li>
+<li>該軟體更易於使用：與市場上其他<span>CAD</span>軟體相比，用戶只需<span>3</span>個月的使用經驗就可以輕鬆上手。易用性的很大一部分原因在於它採用了現代著名的<span>Windows</span>介面。</li>
+<li>模型的可視化是前所未有的。在光線充足的陰影環境中的構建功能與傳統建模空間形成鮮明對比，傳統建模空間僅顯示黑色背景下的線框。</li>
+<li>我們現在熟悉的類似<span>FeatureManager</span>用於顯示模型的構建歷史。</li>
+<li>零件，組件和圖紙從一開始就可用。用戶無法在組件中應用配合，但仍可將組件放置到位。</li>
+</ul>
+<p><strong>1996年</strong></p>
+<ul>
+<li>介紹了上下建模。允許使用自上而下的裝配建模方法。</li>
+<li>用戶現在可以在裝配中使用配合併捕捉動態裝配運動。除了干擾檢測，用戶還可以更輕鬆地驗證形狀，適合度和功能。</li>
+<li>拖放功能可將一個裝配體零部件移動到另一個裝配體中。</li>
+<li>部分配置。</li>
+<li>自動化物料清單。只有一種方法沒有自定義選項，但它很有效。</li>
+</ul>
+<p><strong>1997年</strong></p>
+<ul>
+<li>鈑金功能首次發布。</li>
+<li>標準庫功能推出。</li>
+<li>Loft功能現在可以使用引導曲線。</li>
+<li>SolidWorks 被<span><span> </span>Dassault Systemes</span>（達索公司）收購。</li>
+<li>面部圓角介紹。</li>
+<li>裝配配置。</li>
+<li>完全可定製的組件爆炸視圖。</li>
+<li>SolidWorks Viewer作為免費產品推出，可與非<span>CAD</span>用戶共享設計，並在與外部方共享數據時保護智慧財產權。</li>
+</ul>
+<p><strong>1998年</strong></p>
+<ul>
+<li>已發布功能面板，現在與設計庫的功能類似。可以拖放到模型上的預製功能。</li>
+<li>草圖診斷可幫助用戶理解草圖不適用於特定特徵的原因。</li>
+<li>Lofts和<span>Sweeps</span>的相切控制。</li>
+<li>組合件封包<span>(Assembly Envelopes)</span>。</li>
+<li>智能配合在建造組件中更多地使用拖放式自動化。</li>
+<li>隨著用戶不斷建造越來越大的組件，輕量級組件可以幫助提高性能。</li>
+<li>表面處理工具首次推出。</li>
+<li>FeatureWorks用於導入文件，能夠更有效地使用來自其他軟體的現有<span>3D</span>數據。</li>
+<li>首次<span>CSWP</span>考試發布。它是手寫的，並通過郵件發送。</li>
+</ul>
+<p><strong>1999年</strong></p>
+<ul>
+<li>Palm Springs的第一個<span>SolidWorks World</span>。</li>
+<li>拖動組件時對組件的實時碰撞檢測。</li>
+<li>3D草圖介紹。</li>
+<li>管道模塊發布。</li>
+<li>2D命令模擬器有助於縮小與以前<span>AutoCAD</span>用戶的差距。</li>
+</ul>
+<p><strong>2000年</strong></p>
+<ul>
+<li>發布<span>eDrawings</span>。</li>
+<li>實現了<span>Hole Wizard</span>接口。</li>
+<li>表面處理更有用，能夠編織，修剪和延伸表面。</li>
+<li>SolidWorks Explorer。</li>
+<li>動態間隙檢測可驗證裝配部件之間的最小間隙。</li>
+</ul>
+<p><strong>2001年</strong></p>
+<ul>
+<li>鏡像組件中的組件。</li>
+<li>引領互動。以前，在任何<span>CAD</span>系統中，只要選擇了命令，軟體就會在模型頂部顯示整個對話框。<span>SOLIDWORKS</span>開始廢除這一點，並轉向我們現在知道的<span>PropertyManagers</span>，並將陰影標註返回到模型。</li>
+<li>現在允許靈活的子組件進一步捕捉準確的裝配運動。</li>
+<li>介紹填充表面命令。</li>
+<li>DXF / DWG導入嚮導發布。</li>
+<li>3D Meeting（<span>3D</span>會議），最終在幾個版本之後退出。利用<span>Microsoft Live Meeting</span>並允許與螢幕共享進行實時同步會議。</li>
+<li>運動模擬功能現在可以捕捉組件中移動的組件的實際物理動態。</li>
+<li>介紹大型裝配模式。</li>
+<li>實現了<span>2D</span>到<span>3D</span>轉換工具，以便將<span>2D CAD</span>數據輕鬆轉換為功能齊全的<span>3D</span>模型。</li>
+<li>介紹<span>SolidWorks Office</span>，將常用的插件如<span>PhotoWorks</span>，<span>Toolbox</span>，<span>Utilities</span>和<span>FeatureWorks</span>打包成一個產品。</li>
+<li>Dassault Systemes收購了<span>SRAC</span>並開始將仿真引入主流設計流程。</li>
+</ul>
+<p><strong>2003年</strong></p>
+<ul>
+<li>COSMOSXpress是第一款<span>Xpress</span>產品，它為每個桌面帶來了簡單的零件驗證。</li>
+<li>3DContentCentral為用戶提供了一個交互和共享模型的社區。</li>
+<li>多體零件設計。這是一個非常大的問題，現在是焊接，鈑金和模具設計的基礎。</li>
+<li>收購了<span>PDMWorks</span>並引入了<span>SolidWorks Office Professional</span>軟體包。開始將<span>PDM</span>作為每個客戶提供的一部分。</li>
+</ul>
+<p><strong>2004年</strong></p>
+<ul>
+<li>介面更新，包括<span>CommandManager</span>，彈出<span>FeatureManager</span>和<span>PropertyManager</span>和<span>ConfigurationManager</span>的管理器視圖選項卡。</li>
+<li>介紹了<span>Mold Tools</span>（模具工具）和<span>Weldments</span>（焊件）。</li>
+<li>實施<span>Auto Balloon</span>命令以匹配物料清單物料編號中的<span>balloon</span>編號。</li>
+<li>限制配合以捕捉更複雜的裝配運動。</li>
+<li>推出了<span>RealView Graphics</span>，以便隨時提供更逼真的圖像。</li>
+</ul>
+<p><strong>2005年</strong></p>
+<ul>
+<li>繪圖比較，為用戶提供工具來比較兩個圖紙之間的變化。</li>
+<li>Flex功能。</li>
+<li>電氣布線，與管道布線一起使用。</li>
+<li>在圖紙中自動標註，以捕捕捉模型中已定義的尺寸。</li>
+<li>能夠繪製無限的線條。</li>
+<li>SolidWorks Rx發布，旨在提供幫助技術支持更好地去識別問題。</li>
+</ul>
+<p><strong>2006年</strong></p>
+<ul>
+<li>發布<span>Smart Components</span>功能，允許為硬體之類的物件安裝智能裝配組件。</li>
+<li>介紹填充圖案。</li>
+<li>介紹草圖塊。</li>
+<li>顯示狀態。</li>
+<li>設計檢查器，允許用戶根據公司標準動態檢查他們的模型。</li>
+<li>添加了相機視圖功能。</li>
+<li>發布<span>SolidWorks Office Premium</span>（白金版）軟體包，包括<span>Routing</span>，<span>COSMOSWorks</span>和<span><span> </span>COSMOSMotion</span>進行模擬，以及<span>ScanTo3D</span>。</li>
+</ul>
+<p><strong>2007年</strong></p>
+<ul>
+<li>SWIFT工具可幫助設計人員在提供自動化解決方案時動態了解模型存在問題或錯誤的原因。</li>
+<li>可在組件中使用皮帶，鏈條和齒輪功能。</li>
+<li>用於表面處理的自由形式命令。</li>
+<li>介紹<span>Enterprise PDM</span>。</li>
+</ul>
+<p><strong>2008年</strong></p>
+<ul>
+<li>使用新的菜單欄和<span>CommandManager</span>布局對用戶介面進行全面檢修和現代化優化。上下工具欄和快捷工具欄首次可用。所有這些介面組件現在都可以完全自定義。</li>
+<li>Instant3D，提供拖動和操縱幾何體的功能，可輕鬆測試不同的設計概念。</li>
+<li>發布<span>TolAnalyst</span>。</li>
+<li>設計剪貼畫，通過剖析現有數據以便在另一個模型中重複使用，可以更輕鬆地重用現有的<span>2D</span>和<span>3D</span>數據。</li>
+<li>推出<span>DriveWorksXpress</span>和<span>DFMXpress</span>。</li>
+</ul>
+<p><strong>2009年</strong></p>
+<ul>
+<li>PhotoView360圖像渲染作為第一個渲染器引入，以訪問處理器的多核功能。</li>
+<li>SpeedPak現在可用於簡化裝配中的組件。</li>
+<li>為追求更高目標，所以引入傳感器。</li>
+<li>CircuitWorks發布並添加到<span>SolidWorks Office Premium</span>（白金版）軟體包中。</li>
+<li>發布<span>3DVIA Composer</span>。</li>
+</ul>
+<p><strong>2010年</strong></p>
+<ul>
+<li>現在提供可持續發展方案，幫助用戶了解其設計對環境的影響。</li>
+<li>快速標註尺寸使得創建細節圖更加容易。</li>
+<li>介紹基於事件的運動模擬。</li>
+<li>首次提供滑鼠手勢快捷鍵。</li>
+<li>現在可以進行多體鈑金建模。</li>
+</ul>
+<p><strong>2011年</strong></p>
+<ul>
+<li>PhotoView360完全集成到<span>SolidWorks</span>介面中。</li>
+<li>現在可以使用<span>Walk-through</span>（走查）功能。</li>
+<li>引入了<span>Defeature</span>工具以幫助限制模型中的智慧財產權數量。</li>
+<li>現在可以在<span>Simulation</span>中使用平面簡化。</li>
+<li>自動排列圖紙中的尺寸。</li>
+</ul>
+<p><strong>2012年</strong></p>
+<ul>
+<li>方程式編輯器經過徹底檢修後，更加用戶友好。</li>
+<li>介紹<span>Large Design Review</span>。</li>
+<li>Feature Freeze現在可以讓用戶更好地控制性能。</li>
+<li>鈑金增強：邊線法蘭的更多選擇，引入掃描法蘭，使用的成型工具更加人性化。</li>
+<li>發布成本計算加載項。</li>
+</ul>
+<p><strong>2013年</strong></p>
+<ul>
+<li>View Orientation有一個對話框，不再只是在工具欄上了。還引入了選擇器多維數據集以及保存視圖功能以便之後使用。</li>
+<li>以前的版本文件互操作性：<span>2013</span>文件現在可以在<span>2012 SP5</span>中打開。</li>
+<li>介紹<span>Conic</span>草圖實體。</li>
+<li>相交功能。</li>
+<li>Customer Portal（客戶門戶網站）上提供了<span>CAD Admin Dashboard</span>（<span>CAD</span>管理員儀錶板）。</li>
+</ul>
+<p><strong>2014年</strong></p>
+<ul>
+<li>能夠通過上下工具欄快捷方式添加標準配合。</li>
+<li>替換草圖實體使用戶能夠用新的實體替換舊實體並仍然維護下游引用。</li>
+<li>推出了鈑金中的<span>Lofted Bend</span>功能。</li>
+<li>能夠創建<span>Conic Fillets</span>（圓錐倒角）。</li>
+<li>樣式樣條草圖命令。</li>
+<li>自動縮放第一個草圖。現在，在草圖上創建第一個維度時，所有實體都會自行調整大小以進行縮放。</li>
+<li>能夠配置結構成員配置文件。現在允許配置輪廓草圖，這大大改變了需要組織的文件數量。</li>
+<li>MySolidWorks作為能夠提供自學培訓以及所有<span>SolidWorks</span>的在線資源社區發布。</li>
+</ul>
+<p><strong>2015年</strong></p>
+<ul>
+<li>動態參考可視化，幫助用戶了解父<span>/</span>子關聯。</li>
+<li>引入了選擇集，以便於重複使用幾何選擇組合。</li>
+<li>能夠直接從<span>SolidWorks</span>進行<span>3D</span>列印。</li>
+<li>Simulation中的疲勞分析。</li>
+<li>Profile center mate（輪廓中心配合）。</li>
+<li>發布<span>SolidWorks MBD</span>。</li>
+</ul>
+<p><strong>2016年</strong></p>
+<ul>
+<li>用戶介面重新設計，包括更好地支持高解析度顯示器。</li>
+<li>藍色<span>/</span>灰色盤默認採用傳統配色方案。</li>
+<li>引入了選擇麵包屑，使相關命令更易於訪問。</li>
+<li>實現<span>Mate Controller</span>工具，以更加可訪問的方式捕捉裝配定位。</li>
+<li>能夠全局替換失敗的配合實體。</li>
+<li>介紹<span>Thread</span>功能。</li>
+<li>發布<span>PDM Standard</span>（標準版）並添加到<span>SolidWorks Professional</span>專業版軟體包中。</li>
+<li>SolidWorks Visualize作為獨立的圖片渲染應用程式發布。</li>
+</ul>
+<p><strong>2017年</strong></p>
+<ul>
+<li>引入<span>3D</span>互連以簡化不同文件類型與<span>SolidWorks</span>的協作。</li>
+<li>Asset Publisher具有<span>ground plane</span>（地層）和<span>magnetic mates</span>（磁配對），可輕鬆實現大型裝配布局。</li>
+<li>引入了<span>Advanced Hole</span>（高級孔）功能。</li>
+<li>增強了<span>Wrap</span>功能，可在更多類型的面選擇上創建幾何體。</li>
+<li>陰影草圖輪廓增強選擇和操作功能。</li>
+</ul>
+<p><strong>2018年</strong></p>
+<ul>
+<li>SolidWorks啟動時的歡迎對話框。</li>
+<li>用戶設置現在可以登錄。新發布的在線許可也可以遵循此登錄，在需要在多台計算機上使用<span>SolidWorks</span>時為用戶提供另一種選擇。</li>
+<li>選擇幾何圖形，允許用戶忽略幾何圖形並在其上選擇其他實體。</li>
+<li>引入了標籤和插槽功能，自動執行以前在鈑金和焊件中常用的手動方法。</li>
+<li>能夠鏡像<span>3D</span>草圖中的實體。</li>
+<li>首次使用筆，觸屏和基於手勢的草圖繪製功能。</li>
+<li>引入拓撲仿真分析。</li>
+</ul>
+<p><strong>2019年</strong></p>
+<ul>
+<li>顯著改進裝配性能。</li>
+<li>Silhouette defeature命令，簡化了從模型中刪除細節以提高性能或保護智慧財產權的過程。</li>
+<li>能夠按狀態對<span>mates</span>進行分組。</li>
+<li>部分倒角和圓角。</li>
+<li>將圖像轉換為網格<span>/</span>凹凸貼圖，從圖像文件創建實際的<span>3D</span>幾何體。</li>
+</ul>
+<p><br/><br/>原文網址：<a href="https://kknews.cc/news/l9vp3ne.html">https://kknews.cc/news/l9vp3ne.html</a><br/>參考資料<span>(1):<a href="https://kknews.cc/zh-tw/news/ey5ojpy.html">https://kknews.cc/zh-tw/news/ey5ojpy.html</a></span></p>
+<p>參考資料<span>(2):<a href="https://kknews.cc/news/l9vp3ne.html">https://kknews.cc/news/l9vp3ne.html</a></span></p>
+<br />SDRC << <a href='SDRC.html'>Previous</a> <a href='NX.html'>Next</a> >> NX</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        </body></html>
+        
