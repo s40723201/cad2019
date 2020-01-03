@@ -155,7 +155,30 @@
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/VYFd049Psc0" width="560"></iframe></p>
 <p><strong><span>WEEK 13</span></strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/DuFTdVA2nZA" width="560"></iframe></p><h2>Week 15-18</h2>
-<h1>Note</h1>
+<p>WEEK 17</p>
+<p style="text-align: center;"><strong>構建一個乾淨的模型教程</strong></p>
+<p><strong> </strong></p>
+<p><span>This tutorial will guide you step-by-step into building a clean simulation model, of a robot, or any other item. This is a very important topic, maybe the most important aspect, in order to have a nice looking, fast displaying, fast simulating and stable simulation model.</span></p>
+<p>　　本教程將指導您逐步構建乾淨的類比模型、機器人或任何其他專案。這是一個非常重要的主題，也許是最重要的方面，為了有一個美觀，快速顯示，快速類比和穩定模擬模型。</p>
+<p><span> </span></p>
+<p>To illustrate the model building process, we will be building following manipulator:</p>
+<p>　　為了說明模型構建過程，我們將構建以下操縱器： </p>
+<p></p>
+<p>When building a new model, first, we handle only the visual aspect of it: the dynamic aspect (its undelying even more simplified/optimized model), joints, sensors, etc. will be handled at a later stage.</p>
+<p>　　在構建新模型時，首先，我們只處理它的視覺方面：動態方面（其未消除甚至更簡化<span>/</span>優化的模型）、接頭、感應器等將在稍後階段處理。</p>
+<p><span> </span></p>
+<p>We could now directly create primitive shapes in CoppeliaSim with [Menu bar --&gt; Add --&gt; Primitive shape --&gt; ...]. When doing this, we have the option to create <a href="http://www.coppeliarobotics.com/helpFiles/en/shapes.htm">pure shapes, or regular shapes</a>. Pure shape will be optimized for dynamic interaction, and also directly be dynamically enabled (i.e. fall, collide, but this can be disabled at a later stage). Primitive shapes will be simple meshes, which might not contain enough details or geometric accuracy for our application. Our other option in that case would be to import a mesh from an external application.</p>
+<p>　　我們現在可以直接在CoppeliaSim使用 [功能表列 ➜  添加 ➜ 原始形狀 ➜　... ]。執行此操作時，我們可以選擇創建純形狀或常規形狀。純形狀將針對動態交互進行優化，並直接動態啟用（即墜落、碰撞，但可以在稍後階段禁用）。原始形狀將是簡單的網，可能不包含足夠的細節或幾何精度，我們的應用程式。在這種情況下，我們的另一個選擇是從外部應用程式導入網格。</p>
+<p><span> </span></p>
+<p>When importing CAD data from an external application, the most important is to make sure that the CAD model is not too heavy, i.e. doesn't contain too many triangles. This requirement is important since a heavy model will be slow in display, and also slow down various calculation modules that might be used at a later stage (e.g. <a href="http://www.coppeliarobotics.com/helpFiles/en/distanceCalculation.htm">minimum distance calculation</a>, or <a href="http://www.coppeliarobotics.com/helpFiles/en/dynamicsModule.htm">dynamics</a>). Following example is typically a no-go (even if, as we will see later, there are means to simplify the data within CoppeliaSim):</p>
+<p>　　從外部應用程式導入 CAD 資料時，最重要的是確保 CAD 模型不會太重，即不包含太多的三角形。此要求很重要，因為重型模型的顯示速度會很慢，而且會減慢稍後階段可能使用的各種計算模組（例如：最小距離計算或動態）。以下示例通常是不去（即使，正如我們稍後將看到的那樣，有方法可以簡化 CoppeliaSim 中的資料）：</p>
+<p><span> </span></p>
+<p>Above CAD data is very heavy: it contains many triangles (more than 47'000), which would be ok if we would just use a single instance of it in an empty scene. But most of the time you will want to simulate several instances of a same robot, attach various types of grippers, and maybe have those robots interact with other robots, devices, or the environment. In that case, a simulation scene can quickly become too slow. Generally, we recommend to model a robot with no more than a total of 20'000 triangles, but most of the time 5'000-10'000 triangles would just do fine as well. Remember: less is better, in almost every aspect.</p>
+<p>以上<span>CAD</span>資料是非常沉重的：它包含許多三角形（超過<span>47,000</span>），這將是確定，如果我們只是使用它的一個實例在一個空場景。但大多數時候，您需要類比同一機器人的多個實例，附加各種類型的夾持器，並可能讓這些機器人與其他機器人、設備或環境進行交互。在這種情況下，類比場景可能會很快變得太慢。通常，我們建議對總共不超過<span> 20,000 </span>個三角形的機器人進行建模，但大多數時候<span> 5,000-10,000 </span>三角形也不錯。記住：在幾乎每一個方面，越少越好。</p>
+<p><span> </span></p>
+<p>What makes above model so heavy? First, models that contain holes and small details will require much more triangular faces for a correct representation. So, if possible, try to remove all the holes, screws, the inside of objects, etc. from your original model data. If you have the original model data represented as parametric surfaces/objects, then it is most of the time a simple matter of selecting the items and deleting them (e.g. in Solidworks).   </p>
+<p>是什麼讓上面的模型如此沉重？首先，包含孔和小細節的模型將需要更多的三角形面才能正確表示。因此，如果可能，請嘗試從原始模型資料中刪除所有孔、螺釘、物體內部等。如果將原始模型資料表示為參數化曲面<span>/</span>物件，則大多數時候，選擇和刪除項（例如，在<span> Solidworks </span>中）是一個簡單的問題。</p>
+<p></p><h1>Note</h1>
 <p><span>git submodule add</span><span> </span>https://github.com/mdecourse/cmsimde.git cmsimde 第一次把cmsimde載入倉儲使用<br/><span>python -m pip install flask_cors</span><span> </span>要更新下載flask_cors<br/><span>git clone --recurse-submodules</span><span> </span><span>https://github.com/solvespace/solvespace.git solvespace</span><br/>從遠端copy cmsimde必須，綠字部分改cmsimde的網址</p>
 <p>使用學校網路需用proxy</p>
 <p><span>[http]</span><br/><span>proxy = [2001:288:6004:17::7]:3128</span></p>
