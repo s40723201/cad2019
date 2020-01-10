@@ -66,8 +66,17 @@
 <v t="leo.20191213124327.1"><vh>W10</vh>
 <v t="leo.20191213124327.2"><vh>W10投影片內容</vh></v>
 </v>
-<v t="leo.20191213124854.1"><vh>W12</vh>
-<v t="leo.20191213124854.2"><vh>W12投影片內容</vh></v>
+<v t="leo.20200110140352.1"><vh>W12</vh>
+<v t="leo.20200110140352.2"><vh>W12投影片內容</vh></v>
+</v>
+<v t="leo.20200110141121.1"><vh>W13</vh>
+<v t="leo.20200110141121.2"><vh>W12投影片內容</vh></v>
+</v>
+<v t="leo.20191213124854.1"><vh>W15</vh>
+<v t="leo.20191213124854.2"><vh>W13投影片內容</vh></v>
+</v>
+<v t="leo.20200110140539.1"><vh>webots tutorial</vh>
+<v t="leo.20200110140539.2"><vh>webots tutorial投影片內容</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
@@ -529,10 +538,49 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213124854.2">## Week 12 ：NX章節分析
+<t tx="leo.20191213124854.2">## Week 15：回報
+
+&lt;iframe width="854" height="480" src="https://youtu.be/DuFTdVA2nZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110140352.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110140352.2">## Week 12 ：NX章節分析
 
 第1章—簡介
 
 　　現代製造環境可以通過提供的種類越來越多的產品，小批量和更高的質量在提高全球競爭的背景下的模式為特徵。除非行業以更高的質量，更低的成本和更短的交付時間推出新產品，否則它們就無法在全球競爭中生存。國際競爭激烈，技術工人的供應減少。 隨著計算能力的巨大變化和用於設計和生產的軟件工具的廣泛可用性，現在工程師都使用電腦輔助設計（CAD），電腦輔助製造（CAM）和電腦輔助工程（CAE）系統來自動化設計和生產過程。現在這些技術每天都用於各種不同的工程任務。</t>
+<t tx="leo.20200110140539.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110140539.2">## webots tutorial
+
+&lt;iframe width="854" height="480" src="https://youtu.be/VYFd049Psc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110141121.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110141121.2">## Week 13
+
+．BubbleRob_tutorial
+### 練習建立一個模型並調動一些參數來做模擬
+
+．整理NX12 Ch7教材</t>
 </tnodes>
 </leo_file>
